@@ -3,10 +3,7 @@ using System.Collections.Generic;
 
 namespace WinProg_Week9_GenericsAndConstraints
 {
-    public class StaticDemo<T>
-    {
-        public static int x;
-    }
+   
     public interface IDocument
     {
         string Title { get; set; }
